@@ -1,0 +1,23 @@
+{
+  "name": "practice-knex-seeds-migrations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.13",
+    "knex-cleaner": "^1.3.1",
+    "sqlite3": "^5.0.2"
+  }
+}
